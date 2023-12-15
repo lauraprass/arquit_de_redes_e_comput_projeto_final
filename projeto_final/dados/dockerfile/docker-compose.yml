@@ -1,0 +1,32 @@
+version: '3'
+services:
+  portainer:
+    image: portainer/portainer
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+  nginx:
+    build:
+      context: ./nginx
+    ports:
+      - "8080:80"
+
+  apache2_elisandra:
+    build:
+      context: ./apache2
+      dockerfile: Dockerfile_elisandra
+    ports:
+      - "8081:80"
+
+  apache2_laura:
+    build:
+      context: ./apache2
+      dockerfile: Dockerfile_laura
+    ports:
+      - "8082:80"
+
+volumes:
+  portainer_data:
