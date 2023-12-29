@@ -6,7 +6,7 @@
   <br>
  - Meu projeto final da matéria Arquitetura de Redes e Computador do meu 3º semestre na faculdade SENAC Palhoça. Espero que tenham gostado e qualquer crítica construtiva de melhoria sou "toda ouvidos"! 😊 
 <br>
- - Os conteúdos que foram solicitados pelo professor para o projeto foram com base nos temas discutidos em sala de aula ao longo do semestre
+ - Os conteúdos que foram solicitados pelo professor para o projeto foram com base nos temas discutidos em sala de aula ao longo do semestre.
  <br>
  - Um dos requisitos do projeto era para ele ser desenvolvido em dupla
   <h1>
